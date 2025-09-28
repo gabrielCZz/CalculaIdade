@@ -1,17 +1,43 @@
-CP1: Calculadora de Idade
+# 📅 Calculadora de Idade – Console Application
 
-Integrantes: 
-rm559613 - Gabriel Cruz Ferreira 
-rm561144 - Jonas de Jesus Campos de Oliveira 
-rm559336 - Wendell Nascimento Dourado 
-rm560992 - Kauã Ferreira dos Santos 
-rm560227 - Vinicius Da Silva Bitú
-rm559622 - Daniel Batista
+## 👥 Integrantes
+- **RM559613** – Gabriel Cruz Ferreira  
+- **RM561144** – Jonas de Jesus Campos de Oliveira  
+- **RM559336** – Wendell Nascimento Dourado  
+- **RM560992** – Kauã Ferreira dos Santos  
+- **RM560227** – Vinicius Da Silva Bitú  
+- **RM559622** – Daniel Batista  
 
-Resumo:
-Programa de console em C# para calcular a idade de uma pessoa a partir do seu nome completo e data de nascimento. 
-O cálculo é baseado na data atual do sistema operacional. O projeto usa struct para representar a pessoa e informa via Console:
-  => A idade em anos completos
-  => se a pessoa é maior de idade (>= 18 anos)
-  => se a pessoa pode solicitar a CNH
+---
 
+## 📌 Descrição
+Este projeto é um programa de **console em C#** que calcula a **idade de uma pessoa** a partir da **data de nascimento** informada pelo usuário.  
+Além de exibir a idade, o sistema informa se o usuário é **maior de idade** e se está **apto a solicitar a carteira de habilitação**.
+
+---
+
+## ⚙️ Funcionalidades
+- Entrada de dados via **Console**:  
+  - Nome completo  
+  - Data de nascimento  
+
+- Saída de dados:  
+  - Idade atual (com base na data do sistema operacional)  
+  - Indicação se o usuário é maior de idade  
+  - Informação sobre possibilidade de tirar a carteira de motorista  
+
+- Implementação obrigatória de **Struct** para armazenar os dados do usuário  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** C#  
+- **Framework:** .NET (Console Application)  
+- **IDE:** Visual Studio 2022  
+
+---
+
+## 🚀 Como Executar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/usuario/repositorio-idade.git
